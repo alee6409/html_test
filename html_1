@@ -1,8 +1,45 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
 <head>
-欢迎来到html的世界
+	<meta charset="UTF-8">
+	<title>之路ll</title>
 </head>
 <body>
+	
+	<!--将字体居中-->
+	<div align = center>
+    
+    <!--添加一个icon鼠标放上去会有特效，不过不知道有啥用-->
+	<meta rel = "icon" href = c:/Users/alee/Desktop/a.jpg>
+
+	<!--html中的更改字体大小-->
+	<font size = "8">之路ll</font>
+
+	<!--换行符-->
+	<br/>
+
+	<!--添加一个超级链接-->
+	<a herf="https://blog.csdn.net/biyuhuaping/article/details/78211589?locationNum=11&fps=1" title="链接" target="_blank"> lips and hips </a>
+
+    
+    <br/>
+    <button type="button" onclick="myFunction()">点了也没用</button>
+	<span style="font-size:18px;">
+		<script type="text/javascript">
+            //alert("欢迎来到JavaScript世界！！！");
+
+            document.write("<h1>javascript的题目</h1>");
+            document.write("<p>javascript的段落</p>");
+
+            function myFunction()
+               {
+                   document.getElementById("demo").innerHTML="My First JavaScript Function";
+                }
+        </script>
+    </span>
+    <marquee height="80" weight="200" bgcolor = "yellow" behavior="alternate" direction="up" scrollamount = 1 >
+		hello world!*_*---*_*---*_*---*_*---*_*---*_*---*_*---*_*---*_*---*_*---*_*---*_*-︿(￣︶￣)︿-*_*---*_*---*_*---*_*---*_*---*_*---*_*---*_*---*_*---*_*---*_*---*_*-hello world! 
+	    </marquee>
+    </div>
 </body>
 </html>
